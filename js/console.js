@@ -28,8 +28,12 @@ listaDestinos2.slice('Blumenau');
 
 const idadei = 15;
 
-if(idadei > 18){
+if(idadei >= 18){
     console.log("compra realizada");
 }else{
     console.log("Não é possível vender bilhete")
+}
+
+for (let i = 0; i < 10; i++){
+    console.log("contagem:" + i);
 }
